@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form">
+        <form action="https://api.web3forms.com/submit" method="POST" id="form">
+            <div class="heading">
+            <h1 class="center">Contact</h1>
+            <p class="center pclass">Your insights are greatly appreciated and will significantly help my development. Please feel free to share your thoughts openly. Your time and contributions are sincerely appreciated.</p>
+            </div>
+
+            <div class="inputs">
+
+            <input type="hidden" name="access_key" value="18fbafad-dd73-4b0a-98d7-7198f9befdcd">
+
+            <!-- <label for="name">Your Name</label> -->
+            <input type="text" placeholder="Your Name" id="name" class="input-sty" name="name" required>
+
+            <!-- <label for="email">Your Email</label> -->
+            <input type="email" placeholder="Enter your email" id="email" class="input-sty" name="email" required>
+
+            <!-- <label for="message"></label> -->
+            <textarea name="message" id="message" name="textarea" class="input-sty textarea" rows="10" placeholder="Your Message"></textarea>
+
+            <button type="submit" class="btn">Send</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
